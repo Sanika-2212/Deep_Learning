@@ -9,7 +9,7 @@ def Marvellous_Neuron_Forward(inputs, weights, bias):
     print("Weights(W) are :", weights)
     print("Bias(b) :",bias)
 
-    z = 0
+    z = 0 
 
     for i in range(len(inputs)):
         z = z + (inputs[i] * weights[i])
